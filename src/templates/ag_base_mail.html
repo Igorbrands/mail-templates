@@ -1,0 +1,39 @@
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-full font-roboto">
+      <tr>
+        <td align="center" class="bg-neutral-gray-2 sm:px-16">
+          <table class="w-600 sm:w-full">
+            <tr>
+              <td class="sm:py-32 sm:px-24 text-center">
+                <p class="mt-32 mb-16 text-neutral-gray-6 text-xs">
+                  You are not viewing this email correctly? You can also find it
+                  on the online version.
+                </p>
+              </td>
+            </tr>
+            <tr class="bg-neutral-white">
+              <td class="px-24 py-56">
+                <span>Booking Details #xxx</span>
+              </td>
+              <td>
+                test
+                <component src="passengersCard.html" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="min-h-112 bg-primary-purple" />
+              </td>
+              <tr>
+                <td>
+                  <p align="center" class="mt-16 mb-32 text-neutral-gray-6 text-xs">If you want to unsubscribe, <a class="text-primary-purple cursor-pointer">click here</a> .</p>
+                </td>
+              </tr>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
